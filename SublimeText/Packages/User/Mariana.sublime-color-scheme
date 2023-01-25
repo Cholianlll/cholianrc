@@ -1,0 +1,52 @@
+{
+	// http://www.sublimetext.com/docs/3/color_schemes.html
+	"variables": {
+		"important_comment": "#FF2D00",
+		"deprecated_comment": "#98C379",
+		"question_comment": "#3498DB",
+		"todo_comment": "#FF8C00",
+		"fixme_comment": "#d5a579",
+		"undefined_comment": "#474747",
+	},
+	"globals": {
+		// "foreground": "var(grey2)",
+	},
+	"rules": [
+		{
+			"name": "IMPORTANT COMMENTS",
+			"scope": "comments.important",
+			"foreground": "var(important_comment)",
+			"background": "rgba(1,22,38, 0.1)",
+		},
+		{
+			"name": "DEPRECATED COMMENTS",
+			"scope": "comments.deprecated",
+			"foreground": "var(deprecated_comment)",
+			"background": "rgba(1,22,38, 0.1)",
+		},
+		{
+			"name": "QUESTION COMMENTS",
+			"scope": "comments.question",
+			"foreground": "var(question_comment)",
+			"background": "rgba(1,22,38, 0.1)",
+		},
+		{
+			"name": "TODO COMMENTS",
+			"scope": "comments.todo",
+			"foreground": "var(todo_comment)",
+			"background": "rgba(1,22,38, 0.1)",
+		},
+		{
+			"name": "FIXME COMMENTS",
+			"scope": "comments.fixme",
+			"foreground": "var(fixme_comment)",
+			"background": "rgba(1,22,38, 0.1)",
+		},
+		{
+			"name": "UNDEFINED COMMENTS",
+			"scope": "comments.undefined",
+			"foreground": "var(undefined_comment)",
+			"background": "rgba(1,22,38, 0.1)",
+		},
+	],
+}

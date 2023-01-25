@@ -1,0 +1,10 @@
+{
+    // target uses the ExecuteCondaEnvironmentCommand found in commands.py
+    "target": "execute_conda_environment",
+    // "cmd": ["python", "-u", "$file"],
+    "cmd" : ["/Users/cholian/opt/anaconda3/bin/python", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.python",
+    "env": {"PYTHONIOENCODING": "utf-8"},
+    "cancel": {"kill": true}
+}

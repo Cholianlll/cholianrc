@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Colored Comments",
+		"Conda",
+		"Indentor",
+		"MarkdownPreview",
+		"Package Control",
+		"PackageResourceViewer",
+		"Python 3",
+		"rainbow_csv",
+		"Terminal",
+		"Theme - One Dark",
+	],
+}

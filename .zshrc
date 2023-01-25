@@ -127,3 +127,4 @@ unset __conda_setup
 
 alias subl="open -a /Applications/Sublime\ Text.app"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
+alias python=/Users/cholian/opt/anaconda3/bin/python

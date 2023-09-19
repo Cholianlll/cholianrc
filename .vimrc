@@ -10,7 +10,7 @@ inoremap <2-leftmouse> <Esc>\m
 " Basic Settings
 set encoding=utf-8
 set fileencoding=utf-8
-set number relativenumber
+set number
 
 " ==================== Terminal Plugins ====================
 syntax enable

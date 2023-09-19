@@ -1,15 +1,16 @@
 " ==================== Editor behavior ====================
-"ctrl+z撤销
+" Mapping ctrl+z for undo 
 map <C-Z> :u<CR>
 map! <C-Z> <C-O>:u<CR>
 
-"双击时高亮
+" Highlight for double-click
 map <2-leftmouse> \m
 inoremap <2-leftmouse> <Esc>\m
 
-"基本设置
-set encoding=utf-8
+" Basic Settings
+encoding=utf-8
 set fileencoding=utf-8
+set number relativenumber
 
 " ==================== Terminal Plugins ====================
 syntax enable

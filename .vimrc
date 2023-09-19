@@ -12,7 +12,7 @@ set encoding=utf-8
 set fileencoding=utf-8
 set number
 
-" ==================== Terminal Plugins ====================
+" ==================== Terminal Plugins installation ====================
 syntax enable
 set background=dark
 " Plugins will be downloaded under the specified directory.
@@ -37,5 +37,9 @@ Plug 'tpope/vim-fugitive'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
+
+" ==================== Terminal Plugins Settings ====================
+
+" Set the color theme
 colorscheme solarized
 

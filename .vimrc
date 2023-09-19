@@ -8,7 +8,7 @@ map <2-leftmouse> \m
 inoremap <2-leftmouse> <Esc>\m
 
 " Basic Settings
-encoding=utf-8
+set encoding=utf-8
 set fileencoding=utf-8
 set number relativenumber
 
